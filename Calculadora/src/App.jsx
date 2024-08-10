@@ -10,7 +10,7 @@ function App() {
       <div className='container'>
         <div className='pantalla'>
         <div className='botones1'>
-        <Boton {9} />
+        <Boton  />
           
         
         <Boton>

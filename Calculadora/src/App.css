@@ -13,7 +13,7 @@ align-items: center;
 
 
 
-.pantalla {
+.calculadora {
 
   
 box-shadow: 10px 10px 10px 0px rgb(211, 142, 142);
@@ -23,16 +23,25 @@ border:solid ,1px ;
 text-align: center;
 background-color: rgb(49, 47, 47);
 
-width: 100em;
-height: 100em;
+width: 500px;
+height: 650px;
 border-radius: 10px 10px 10px 10px;
 
 
 
 }
-.botones1{
+.fila {
   display: flex;
   justify-content:space-around;
   flex-wrap: wrap;
   
+}
+
+.boton {
+  border-radius: 30%;
+  border:solid 1px black;
+  width:50px ;
+  height: 100px;
+  margin: 10px;
+  color:brown;
 }

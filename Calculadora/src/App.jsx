@@ -10,24 +10,24 @@ function App() {
       <div className='container'>
         <div className='pantalla'>
         <div className='botones1'>
-        <Boton  />
-          
-        
+        <Boton>
+           
+          9
+        </Boton>
         <Boton>
           8
         </Boton>
         <Boton>
           7
         </Boton>
+        
+       
         </div>
-        <div className='botones2'>
+       
         
         </div>
-        <div className='botones3'>
+        </div>
         
-        </div>
-        </div>
-        </div>
     
   )
 }

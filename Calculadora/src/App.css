@@ -30,3 +30,9 @@ border-radius: 10px 10px 10px 10px;
 
 
 }
+.botones1{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  
+}

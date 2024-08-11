@@ -1,7 +1,7 @@
 
 import Boton from './Componentes/Boton'
 import './App.css'
-
+import Pantalla from './Componentes/Pantalla'
 function App() {
 
 
@@ -9,12 +9,16 @@ function App() {
     
       <div className='container'>
         <div className='calculadora'>
-        <div className='fila'>
-        <Boton className="boton">
+        
+        <Pantalla
+        input="999" />
            
-           
-         </Boton>
-          </div>
+          
+          
+          
+        
+        
+       
         <div className='fila'>
         <Boton className="boton">
            

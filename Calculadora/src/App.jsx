@@ -3,7 +3,9 @@ import Boton from './Componentes/Boton'
 import './App.css'
 import Pantalla from './Componentes/Pantalla'
 function App() {
-
+const tocarboton=() => {
+  console.log("toy tocando el 7")
+}
 
   return (
     
@@ -20,8 +22,9 @@ function App() {
         
        
         <div className='fila'>
-        <Boton className="boton">
-           
+        <Boton
+        tocar={tocarboton}
+           >
           7
         </Boton>
         <Boton>

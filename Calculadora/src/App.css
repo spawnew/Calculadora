@@ -37,7 +37,7 @@ border-radius: 10px 10px 10px 10px;
   
 }
 
-.boton {
+ button {
   border-radius: 15%;
   border:solid 1px black;
   width:60px ;
@@ -60,7 +60,8 @@ border-radius: 10px 10px 10px 10px;
   background-color: rgb(6, 7, 7);
   justify-content: end;
   justify-items: end;
-  
+  font-size: 45px;
+  align-items: center;
   
 
   

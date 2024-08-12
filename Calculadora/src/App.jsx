@@ -3,13 +3,22 @@ import Boton from './Componentes/Boton'
 import './App.css'
 import Pantalla from './Componentes/Pantalla'
 import { useState } from 'react'
+import Botonclear from './Componentes/Botonclear'
+import {evaluate} from 'mathjs'
+
 function App() {
 
 const [input, setinput] = useState('')
 const tocarboton = valor => {
   setinput(input+valor)
 }
+const borrado =()=>{
+  setinput('');
 
+}
+const calcularResultado=()=>{
+  setinput(evaluate(input))
+}
   return (
     
       <div className='container'>
@@ -18,11 +27,6 @@ const tocarboton = valor => {
         <Pantalla
         input={input} />
            
-          
-          
-          
-        
-        
        
         <div className='fila'>
         <Boton
@@ -84,7 +88,7 @@ const tocarboton = valor => {
         <Boton tocarboton={tocarboton}>
           .
         </Boton>
-        <Boton tocarboton={tocarboton}>
+        <Boton tocarboton={ calcularResultado}>
           =
         </Boton>
         <Boton tocarboton={tocarboton}>
@@ -93,8 +97,12 @@ const tocarboton = valor => {
         
        
         </div>
-       
+        <div className='fila'>
+        <Botonclear
+        borrado={borrado}>
         
+        </Botonclear>
+        </div>
         </div>
         </div>
         
